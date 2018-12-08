@@ -1,16 +1,28 @@
 <head>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="snow.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
 </head>
 <body>
 
 <div id="letter">
-    <div style="color: white;">We wish you a Merry Christmas</div>
-    <div style="color: white;">and a</div>
-    <div style="color: white;">happy New Year</div>
+    <div id='str' style="color: white;"></div>
 
 </div>
 <div id="logo">
     <img src="img/logotype.png" class="logotype">
 </div>
-<audio src="Jingle_Bells_7.mp3" autoplay></audio>
+<audio id="audio" src="Jingle_Bells_7.mp3" autoplay></audio>
+<script>
+    window.onload = function () {
+        document.getElementById('audio').play();
+    };
+
+    $('#str').typeIt({
+        strings: ['We wish you a Merry Christmas', '\n and a happy New Year!']
+    });
+
+</script>
+
 </body>
