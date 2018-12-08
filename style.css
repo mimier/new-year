@@ -25,7 +25,8 @@ body {
   padding: 10px;
   margin: 0;
   overflow:  hidden;
-      background: url("img/christmas-dark.png") repeat;
+      background: url("img/snowoverdesktop5.jpg") repeat;
+    background-color: darkblue;
 }
 #letter {
     font-family: nautilus_pompiliusregular, Arial;
