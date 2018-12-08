@@ -5,20 +5,6 @@
     font-style: normal
 }
 
-#gir {
-    position:fixed;
-    top:0;
-    left:0;
-    background-image:url('http://lh5.googleusercontent.com/-obNunPiVVd4/VJOuk2f29_I/AAAAAAAAE3Y/SOoFIrFTTkk/s800/gerljanda1.png');
-    height:36px;
-    width:100%;
-    overflow:hidden;
-    z-index:99
-}
-#nums_1 {padding:100px}
-.gir_1 {background-position: 0 0}
-.gir_2 {background-position: 0 -36px}
-.gir_3 {background-position: 0 -72px}
 
 body {
   background-color: #6a5c77;
@@ -40,8 +26,9 @@ body {
     position: relative;
     text-align: center;
     padding-top: 16vh;
-    border: 2px solid white;
+    border: 1px solid white;
     background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #logo {
@@ -51,7 +38,8 @@ body {
     width: 1000px;
     max-width: 100%;
     margin: 0 auto;
-    border: 2px solid white;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 #logo img {
     padding-bottom: 10px;
@@ -60,4 +48,13 @@ body {
 .logotype {
     position: relative;
     bottom: 1%;
+}
+
+svg {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+svg:hover {
+    cursor: pointer;
 }
