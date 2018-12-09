@@ -11,7 +11,7 @@ body {
   padding: 10px;
   margin: 0;
   overflow:  hidden;
-      background: url("img/snowoverdesktop5.jpg") repeat;
+      background: url("img/bg.jpg") repeat;
     background-color: darkblue;
 }
 #letter {
@@ -21,14 +21,14 @@ body {
     max-width: 100%;
     height: 500px;
     background-size: cover;
-    background: url("qqq.jpg") no-repeat;
+    background: url("img/house.jpg") no-repeat;
     margin: 0 auto;
     position: relative;
     text-align: center;
     padding-top: 16vh;
     border: 1px solid white;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 100px rgba(0, 255, 203, 0.66);
 }
 
 #logo {
@@ -39,22 +39,39 @@ body {
     max-width: 100%;
     margin: 0 auto;
     border: 1px solid white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 100px rgba(0, 255, 203, 0.66);
 }
 #logo img {
-    padding-bottom: 10px;
-}
-
-.logotype {
-    position: relative;
-    bottom: 1%;
+    padding-bottom: 5px;
+    padding-right: 10px;
 }
 
 svg {
     position: absolute;
     bottom: 20px;
-    left: 10px;
+    left: 40px;
 }
 svg:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1024px) {
+    #letter {
+        margin-top: 40%;
+        font-size: 60px;
+    }
+    #logo {
+        height: 140px;
+    }
+    #logo img {
+        padding-top: 25px;
+        width: 500px;
+    }
+    svg {
+        left: 45%;
+        bottom: 10%;
+        width: 100px;
+        height: 100px;
+    }
+}
+
