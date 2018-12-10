@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d904d941-2d65-412d-bd09-7e8dd1d2fe56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/snow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audio.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/audio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/christmas-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fon_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snowoverdesktop5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/house.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/snow.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/snow.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="11" selection-end-line="14" />
+              <caret line="14" selection-start-line="11" selection-end-line="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#body#0;n#!!top" expanded="true" />
@@ -36,14 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/snow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="4" lean-forward="true" selection-end-line="79" />
-              <folding>
-                <marker date="1544350010819" expanded="true" signature="3:3362" ph="..." />
-              </folding>
+            <state relative-caret-position="389">
+              <caret line="25" column="1" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -52,15 +40,15 @@
         <entry file="file://$PROJECT_DIR$/js/audio.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="141">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <marker date="1544350628256" expanded="true" signature="584:631" ph="..." />
@@ -88,9 +76,9 @@
         <option value="$PROJECT_DIR$/text.js" />
         <option value="$PROJECT_DIR$/snow.js" />
         <option value="$PROJECT_DIR$/audio.js" />
-        <option value="$PROJECT_DIR$/js/snow.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/js/snow.js" />
       </list>
     </option>
   </component>
@@ -168,12 +156,13 @@
       <workItem from="1544294754734" duration="5806000" />
       <workItem from="1544305648169" duration="178000" />
       <workItem from="1544305986732" duration="16000" />
-      <workItem from="1544346653216" duration="3972000" />
+      <workItem from="1544346653216" duration="4183000" />
+      <workItem from="1544470015576" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28931000" />
+    <option name="totallyTimeSpent" value="29181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,7 +177,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -201,7 +190,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -242,12 +231,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/fon_12.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/christmas-dark.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/fon_12.png" />
+    <entry file="file://$PROJECT_DIR$/img/christmas-dark.png" />
     <entry file="file://$PROJECT_DIR$/img/fon_39.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -266,12 +251,19 @@
     <entry file="file://$PROJECT_DIR$/img/bg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/snow.js">
+    <entry file="file://$PROJECT_DIR$/js/audio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" lean-forward="true" selection-end-line="79" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <marker date="1544350010819" expanded="true" signature="3:3362" ph="..." />
+            <marker date="1544350628256" expanded="true" signature="584:631" ph="..." />
           </folding>
         </state>
       </provider>
@@ -279,7 +271,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="11" selection-end-line="14" />
+          <caret line="14" selection-start-line="11" selection-end-line="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#body#0;n#!!top" expanded="true" />
@@ -288,20 +280,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/audio.js">
+    <entry file="file://$PROJECT_DIR$/js/snow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <marker date="1544350628256" expanded="true" signature="584:631" ph="..." />
-          </folding>
+        <state relative-caret-position="389">
+          <caret line="25" column="1" selection-end-line="79" />
         </state>
       </provider>
     </entry>
