@@ -46,27 +46,5 @@
     $('#str').typeIt({
         strings: ['We wish you a Merry Christmas', '\n and a happy New Year!']
     });
-
-    if (document.documentElement.clientHeight < document.documentElement.clientWidth) {
-        let letter = $('#letter');
-        let imgBlockHeight = document.documentElement.clientHeight - letter.innerHeight();
-        let img = $('#img-logo');
-        let paddingTop = (imgBlockHeight - img.innerHeight()) / 1.5;
-        paddingTop = paddingTop > 16 ? paddingTop : 5;
-        paddingTop = paddingTop >= 80 ? 80 : paddingTop;
-        let width = paddingTop * 2.15 > 400 ? paddingTop * 2.15 : 400;
-        $('#logo').css('height', imgBlockHeight + 'px');
-        if (document.documentElement.clientHeight > 1024) {
-            letter.css('margin-top', document.documentElement.clientHeight / 12 + 'px')
-        }
-        if (paddingTop > 5) {
-            img.css({
-                'padding-top': paddingTop + 'px',
-                'width': width + 'px'
-            })
-        } else {
-            img.css({'height': imgBlockHeight / 1.5 + 'px', 'padding-top': paddingTop + 'px'})
-        }
-    }
 </script>
 </body>

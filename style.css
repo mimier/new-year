@@ -75,4 +75,37 @@ svg:hover {
         height: 100px;
     }
 }
+@media only screen and (max-height: 1050px) {
+    #logo {
+        height: 150px;
+    }
+    #logo img {
+        padding-top: 25px;
+        width: 500px;
+    }
+    #letter {
+        height: 450px;
+        margin-top: 50px;
 
+    }
+}
+
+@media only screen and (max-height: 850px) {
+   #letter {
+       margin-top: 0;
+   }
+
+    #logo img {
+        padding-top:5px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+  S
+    #logo img {
+      padding-top:0;
+
+      width: 400px;
+    }
+}
