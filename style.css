@@ -14,6 +14,10 @@ body {
       background: url("img/bg.jpg") repeat;
     background-color: darkblue;
 }
+
+span {
+    z-index: 9999;
+}
 #letter {
     font-family: nautilus_pompiliusregular, Arial;
     font-size: 45px;
