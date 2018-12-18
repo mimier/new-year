@@ -2,19 +2,20 @@ let christmasSong = $('#audio');
 let audioOn = $('#audio_on');
 let audioOff = $('#audio_off');
 
-function turnOn() {
+function turnOn(withMusic = false) {
     audioOn.css('display', 'block');
     audioOff.css('display', 'none');
-    christmasSong[0].play();
+    withMusic ? christmasSong[0].play() : null
 }
 
-function turnOff() {
+function turnOff(withMusic = false) {
     audioOn.css('display', 'none');
     audioOff.css('display', 'block');
-    christmasSong[0].pause();
+    withMusic ? christmasSong[0].pause() : null
 }
 
 !!window.chrome ? turnOff() : turnOn();
-$('svg').on('click', function () {
-    this.id === 'audio_on' ? turnOff() : turnOn()
-});
+    $('svg').on('click', function () {
+        this.id === 'audio_on' ? turnOff(true) : turnOn(true)
+    });
+
